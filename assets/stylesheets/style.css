@@ -796,24 +796,28 @@ q:after {
 @media screen and (min-width: 1080px) {
   .anshin p{
     font-size: 21px;
+    
   }
 }
 @media screen and (max-width: 750px) {
   .anshin p{
     font-size: 5.06vw;
+    display: block;
+    width: 78.67%;
+    text-align: justify;
+    line-height: 1.6;
+    left: 50% !important;
+    transform: translateX(-50%);
   }
   .anshin p:nth-child(3){
     top: 24%;
-    left:11%;
+    
   }
   .anshin p:nth-child(4){
     top: 55.5%;
-    left:11%;
   }
   .anshin p:nth-child(5){
     top: 84.5%;
-    left:9%;
-    font-size: 5vw;
   }
 }
 
@@ -1000,6 +1004,9 @@ q:after {
     }
     .pay table tbody tr:nth-child(3) th,.pay table tbody tr:nth-child(4) th{
      
+      -ms-writing-mode: tb-rl; 
+      -webkit-writing-mode: vertical-rl;
+      -o-writing-mode: vertical-rl; 
       writing-mode: vertical-rl;
     }
     .pay table td:nth-child(2){
