@@ -1005,7 +1005,7 @@ q:after {
     .pay table tbody tr:nth-child(3) th,.pay table tbody tr:nth-child(4) th{
      
       -ms-writing-mode: tb-rl; 
-      -webkit-writing-mode: vertical-rl;
+      -webkit-writing-mode: vertical-rl !important;
       -o-writing-mode: vertical-rl; 
       writing-mode: vertical-rl;
     }
