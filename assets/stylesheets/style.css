@@ -642,7 +642,7 @@ q:after {
   }
   .achievement ul li{
     width: 48%;
-    padding: 3.5% 0;
+    padding: 2.8% 0;
     margin: 1% 0 ;
   }
   .achievement ul li h2{
@@ -656,8 +656,444 @@ q:after {
     font-size: 2.66vw;
   }
 }
+@media screen and (max-width: 360px) {
+  
+  .achievement ul li p{
+    transform: scale(0.7) translateX(-25%); 
+    display: block;
+    width: 150%;
+   
+  }
+}
 
 /* ここまでachievement **************/
+/* ここからreason **************/
+  .reason{
+    position: relative;
+  }
+  .reason .reason-content h2{
+    font-size: 3.23vw;
+    font-style: oblique;
+    padding: 0 2%;
+  }
+  .reason .reason-content h3{
+    font-size: 6.11vw;
+    font-style: oblique;
+    margin: 3% 0;
+  }
+  .reason .reason-content p{
+    font-size: 2.02vw;
+  }
+  .reason .reason-content{
+    position: absolute;
+  }
+  .reason .reason-content:nth-child(2n) h2{
+    text-align: right;
+    
+  }
+  .reason .reason-content:nth-child(3){
+    top: 13.7%;
+    left: 3.8%;
+  }
+  .reason .reason-content:nth-child(4){
+    top: 31.5%;
+    left: 45.97%;
+  }
+  .reason .reason-content:nth-child(5){
+    top: 48.5%;
+    left: 3.8%;
+  }
+  .reason .reason-content:nth-child(6){
+    top: 66.6%;
+    left: 45.97%;
+  }
+  .reason .reason-content:nth-child(7){
+    top: 86.5%;
+    left: 3.8%;
+  }
+  @media screen and (min-width: 1080px) {
+    .reason .reason-content h2{
+      font-size: 33px;
+    }
+    .reason .reason-content h3{
+      font-size: 66px;
+    }
+    .reason .reason-content p{
+      font-size: 21px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .reason .reason-content{
+      width: 92%;
+      text-align: center;
+    }
+    .reason .reason-content h2{
+      font-size: 4.8vw;
+      padding: 0 2%;
+    }
+    .reason .reason-content h3{
+      font-size: 9.6vw;
+      margin: 3% 0;
+    }
+    .reason .reason-content p{
+      font-size: 3.7vw;
+      margin-right: 50%;
+      text-align: left;
+      margin-top: 15%;
+    }
+    .reason .reason-content:nth-child(2n) h2{
+      text-align: center;
+    }
+    .reason .reason-content:nth-child(2n) p{
+      margin: 15% 0 0 51% ;
+    }
+    .reason .reason-content:nth-child(3){
+      top: 10.7%;
+    }
+    .reason .reason-content:nth-child(4){
+      top: 29%;
+      left: 3.8%;
+    }
+    .reason .reason-content:nth-child(5){
+      top: 46%;
+    }
+    .reason .reason-content:nth-child(6){
+      top: 64.8%;
+      left: 3.8%;
+    }
+    .reason .reason-content:nth-child(7){
+      top: 85.5%;
+    }
+    .reason .reason-content:nth-child(7) p{
+      margin-top: 23%;
+    }
+  }
+/* ここまでreason **************/
+/* ここからanshin **************/
+.anshin{
+  position: relative;
+}
+.anshin p{
+  font-size: 1.94vw;
+  font-weight: bold;
+  position: absolute;
+  color: #fff;
+  line-height: 1.9;
+}
+.anshin p:nth-child(3){
+  top: 58%;
+  left:6%;
+}
+.anshin p:nth-child(4){
+  top: 58%;
+  left:37.5%;
+}
+.anshin p:nth-child(5){
+  top: 58%;
+  left:68%;
+}
+
+@media screen and (min-width: 1080px) {
+  .anshin p{
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .anshin p{
+    font-size: 5.06vw;
+  }
+  .anshin p:nth-child(3){
+    top: 24%;
+    left:11%;
+  }
+  .anshin p:nth-child(4){
+    top: 55.5%;
+    left:11%;
+  }
+  .anshin p:nth-child(5){
+    top: 84.5%;
+    left:9%;
+    font-size: 5vw;
+  }
+}
+
+/* ここまでanshin **************/
+/* ここからhannyu **************/
+  .hannyu{
+    position: relative;
+  }
+  .blue{
+    color: #3399cc !important;
+  }
+  .hannyu p{
+    font-size: 1.944vw;
+    color: #13334c;
+    display: inline-block;
+    width: 22.22%;
+    font-weight: 500;
+    position: absolute;
+    line-height: 1.8;
+  }
+  .hannyu p .hannyu-min{
+    font-size: 1.66vw;
+  }
+  .hannyu p:nth-child(3){
+    top: 61%;
+    left: 7.5%;
+  }
+  .hannyu p:nth-child(4){
+    top: 61%;
+    left: 38.8%;
+  }
+  .hannyu p:nth-child(5){
+    top: 61%;
+    left: 70.5%;
+  }
+  @media screen and (min-width: 1080px) {
+    .hannyu p{
+      font-size: 21px;
+    }
+    .hannyu p .hannyu-min{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .hannyu p{
+      font-size: 5vw;
+      width: 67.6%;
+      line-height: 1.8;
+    }
+    .hannyu p .hannyu-min{
+      font-size: 4.26vw;
+    }
+    .hannyu p:nth-child(3){
+      top: 25%;
+      left: 17%;
+    }
+    .hannyu p:nth-child(4){
+      top: 58%;
+      left: 17%;
+    }
+    .hannyu p:nth-child(5){
+      top: 89%;
+      left: 17%;
+    }
+  }
+/* ここまでhannyu **************/
+/* ここからpay **************/
+  .pay{
+    background-color: #f9f9f9;
+  }
+  .pay h1{
+    width: 32.78%;
+    margin: 0 auto 5%;
+  }
+  .pay table{
+    width: 87.74%;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+  }
+  .pay table th{
+    background-color:  #3399cc;
+    color: #ffffff;
+    border: 6px solid #f9f9f9;
+    vertical-align: middle;
+    font-size: 2.22vw;
+    padding: 3% 2%;
+  }
+  .pay table thead th:nth-child(1){
+    background: none;
+  }
+  .pay table tbody tr:nth-child(3) th,.pay table tbody tr:nth-child(4) th{
+    text-align: left;
+  }
+  .pay table td:nth-child(2){
+    color:  #3399cc;
+    width: 28.8%;
+    border: 6px solid #f9f9f9;
+    vertical-align: middle;
+    font-size: 1.94vw;
+    background-color: #ffffff;
+  }
+  .pay table td:nth-child(3){
+    color: #898989;
+    width: 52.8%;
+    border: 6px solid #f9f9f9;
+    vertical-align: middle;
+    font-size: 1.94vw;
+    padding: 3% 5%;
+    line-height: 1.4;
+    background-color: #ffffff;
+  }
+  .pay table ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+  .pay table ul li{
+    width: 18.2%;
+    margin: 0 3%;
+  }
+
+  .pay table td:nth-child(3).table-last{
+    font-size: 1.66vw;
+  }
+  .pay table td:nth-child(3).table-last .blue{
+    font-size: 1.94vw;
+  }
+  .pay table td:nth-child(3).table-last .table21{
+    font-size: 1.94vw;
+    display: block;
+    margin-top: 3%;
+  }
+  .pay table td:nth-child(3).table-last .table16{
+    font-size: 1.48vw;
+    display: block;
+    text-align: left;
+  }
+  .pay table td:nth-child(3).table-last .center{
+    text-align: left;
+    display: block;
+  }
+  @media screen and (min-width: 1080px) {
+    .pay table th{
+      font-size: 24px;
+    }
+    .pay table td:nth-child(2){
+      font-size: 21px;
+    }
+    .pay table td:nth-child(3){
+      font-size: 21px;
+    }
+    .pay table td:nth-child(3).table-last{
+      font-size: 18px;
+    }
+    .pay table td:nth-child(3).table-last .blue{
+      font-size: 21px;
+    }
+    .pay table td:nth-child(3).table-last .table21{
+      font-size: 21px;
+    }
+    .pay table td:nth-child(3).table-last .table16{
+      font-size: 16px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .pay h1{
+      width: 58.8%;
+      margin: 0 auto 7%;
+    }
+    .pay table{
+      width: 91%;
+      font-weight: normal !important;
+    }
+    .pay table th{
+      border: 6px solid #f9f9f9;
+      font-size: 4.8vw;
+      padding: 3% 2%;
+      
+    }
+    .pay table thead th:nth-child(1){
+      background: none;
+    }
+    .pay table tbody tr:nth-child(3) th,.pay table tbody tr:nth-child(4) th{
+     
+      writing-mode: vertical-rl;
+    }
+    .pay table td:nth-child(2){
+      width: 41.2%;
+      font-size: 3.73vw;
+ 
+    }
+    .pay table td:nth-child(3){
+      width: 42% ;
+      font-size: 3.73vw;
+    }
+    .pay table td:nth-child(3).credit{
+      width: 42% ;
+      font-size: 3.1vw;
+   
+    }
+    .pay table ul li{
+      width:28.2%;
+      margin: 0 3%;
+    }
+  
+    .pay table td:nth-child(3).table-last{
+      font-size: 3.2vw;
+      text-align: left;
+    }
+    .pay table td:nth-child(3).table-last .blue{
+      font-size: 3.73vw;
+    }
+    .pay table td:nth-child(3).table-last .table21{
+      font-size: 3.73vw;
+      margin-top: 8%;
+    }
+    .pay table td:nth-child(3).table-last .table16{
+      font-size: 2.8vw;
+      display: block;
+      text-align: left
+    }
+    .pay table td:nth-child(3).table-last .center{
+      text-align: left;
+      display: block;
+      
+    }
+  }
+/* ここまでpay **************/
+/* ここからvoice **************/
+  .voice{
+    position: relative;
+  }
+  .voice p{
+    font-size: 2.22vw;
+    color: #13334c;
+    display: block;
+    width: 48.1%;
+    position: absolute;
+ 
+  }
+  .voice p:nth-child(3){
+    top: 30%;
+    left: 9%;
+  }
+  .voice p:nth-child(4){
+    top: 57%;
+    left: 45%;
+  }
+  .voice p:nth-child(5){
+    top: 85%;
+    left: 9%;
+  }
+  @media screen and (min-width: 1080px) {
+    .voice p{
+      font-size: 24px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .voice p{
+      font-size: 4.26vw;
+      width: 85%;
+      text-align: justify;
+      left: 50% !important;
+      transform: translateX(-50%);
+    }
+    .voice p:nth-child(3){
+      top: 32%;
+      
+    }
+    .voice p:nth-child(4){
+      top: 60%;
+    }
+    .voice p:nth-child(5){
+      top: 90%;
+    }
+  }
+/* ここまでvoice **************/
+
 @media screen and (max-width: 750px) {
   .header {
     padding: 0 0 0 20px;
